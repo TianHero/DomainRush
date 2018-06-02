@@ -2,7 +2,7 @@
 A node.js Domain Rush Application  
 一个基于node.js的 reseller club 平台域名抢注程序
 
-#使用前请确保安装node.js
+#使用前请确保安装node.js 传送门：http://nodejs.cn/download/   windows系统选择msi
 
 # 安装
 方法1，git clone
