@@ -63,5 +63,5 @@ node request.js
 - DomainRush.exe 框架是这样的，前端提交域名+客户id+联系人id+ns到php后台，php把数据存到mySql数据库中,基于c#的windows桌面程序DomainRush.exe，请求php接口，php从数据库中读取域名，返回给c#，定时向域名注册商发送请求。正真的操作都在c#程序中。
 - 本程序纯后台操作，没有前端页面，也没使用数据库，使用有点不方便。所有的操作都是基于node的fs和request模块。
 - DomainRush.exe请求的xml格式，本程序请求的是json格式更快更小
-- 本程序是通过反编译DomainRush.exe查看源码来的灵感
+- 本程序是通过ilspy工具反编译DomainRush.exe查看源码来的灵感
 ## 9，觉得可以的话页面右上角给个星星
