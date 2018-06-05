@@ -42,7 +42,7 @@ npm install domainsrush
       'aron.ns.cloudflare.com'
     ]
 ```
-## 3,在当前目录下打开cmd 或者powershell，运行request.js  <font color="red">一定确保路径正确哦</font>  
+## 3,在当前目录下打开cmd 或者powershell，运行request.js  <font color="red">一定确保路径正确哦</font> 使用vscode要打开文件夹，要不然下面的终端不是对应的路径,需要自己重新cd 路径 
 第一次如果没安装依赖的话 需要执行 npm install 再继续下面的操作
 ```
 node request.js
