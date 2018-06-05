@@ -60,7 +60,7 @@ node request.js
 ## 6，配置文件只提供两种联系人id，通用的和eu，发送请求的时候可以根据域名不同，自动选择对应的联系人id。（通用的可以用于com，org，in，pw,top,online等等）
 ## 7,自测翻墙也可以，但是翻墙的话走的是代理服务器，网速超级慢，不建议使用
 ## 8,本程序和DomainRush.exe 的区别
-- DomainRush.exe 框架是这样的，前端提交域名+客户id+联系人id+ns到php后台，php把数据存到mySql数据库中,基于c#的windows桌面程序DomainRush.exe，请求php接口，php从数据库中读取域名，返回给c#，定时向域名注册商发送请求。正真的操作都在c#程序中。
+- DomainRush.exe 框架是这样的，1:前端提交域名+客户id+联系人id+ns到php后台，2:php把数据存到mySql数据库中,3:基于c#的windows桌面程序DomainRush.exe，请求php接口，php从数据库中读取域名，返回给c#，4:定时向域名注册商发送请求。正真的操作都在c#程序中。
 - 本程序纯后台操作，没有前端页面，也没使用数据库，使用有点不方便。所有的操作都是基于node的fs和request模块。
 - DomainRush.exe请求的xml格式，本程序请求的是json格式更快更小
 - 本程序是通过ilspy工具反编译DomainRush.exe查看源码来的灵感
