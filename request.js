@@ -33,7 +33,7 @@ function httprequest(url, index, domain) {
     // console.log(body);
     if (!error && response.statusCode == 200) {
       if (body.status === 'Success') {
-        fs.writeFile('./success/success' + utils.fileDate() + '.txt', domain + '--' + new Date().toISOString() + '\n', { 'flag': 'a', encoding: 'utf-8' }, (err, data) => {
+        fs.writeFile('./success/success' + utils.fileDate() + '.txt', domain + '--' + new Date().toISOString() + '\r\n', { 'flag': 'a', encoding: 'utf-8' }, (err, data) => {
           if (err) { throw err };
           domainsArr.splice(index, 1);
         });

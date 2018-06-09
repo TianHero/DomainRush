@@ -14,7 +14,6 @@ Utils.prototype = {
     const suf = tmpArr[tmpArr.length - 1];
     return suf === 'eu';
   }
-
 }
 const utils = new Utils();
 module.exports = utils;
