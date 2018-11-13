@@ -6,5 +6,6 @@ function User() {
 
   this.common_contact_id = "";//通用联系人id
   this.eu_contact_id = "";//eu联系人id
+  this.nl_contact_id = "";//nl联系人id
 }
 module.exports = User;
